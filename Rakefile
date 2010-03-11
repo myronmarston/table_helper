@@ -20,6 +20,9 @@ spec = Gem::Specification.new do |s|
   s.email             = 'aaron@pluginaweek.org'
   s.homepage          = 'http://www.pluginaweek.org'
   s.rubyforge_project = 'pluginaweek'
+  
+  s.add_runtime_dependency('activerecord', [">= 2.0.0"])
+  s.add_runtime_dependency('actionpack', [">= 2.0.0"])
 end
   
 desc 'Default: run all tests.'
